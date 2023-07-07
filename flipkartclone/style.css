@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+:root {
+    --primary-color: #2874f0;
+}
+
+.container {
+    padding: 0 8px;
+}
+
+ /* navbar styling */
+
+ header {
+    background-color: var(--primary-color);
+    height: 56px;
+}
+header .nav-container{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    max-width: 1248px;
+    margin: 0 auto;
+}
+
+header .nav-container .logo {
+    display: flex;
+    min-width: 137px;
+    justify-content: flex-end;
+}
+
+header .nav-container .logo img{
+    width: 75px;
+}
+
+header .search{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 12px;
+}
+
+header .search .search-container{
+
+    width: 540px;
+    height: 36px;
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 23%);
+    display: flex;
+
+
+}
+
+
+header .search .search-container input{
+    width: 100%;
+    padding: 16px;
+    outline: none;
+    border: none;
+}
+
+header .become-seller {
+   height: 100%;
+   display: flex;
+   align-items: center;
+   margin: 0 20px;
+   font-size: 16px;
+   color: white;
+   font-weight: 500;
+}
+
+header .cart {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/*------------------------------------------------------------------ body -------------------------------------------------------   */
+
+.phone1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.image1{
+    display: flex;
+    margin-left: 60px;
+}
+
+.price{
+    margin-right: 60px;
+    
+}
+.specs1{
+    margin-left: 70px;
+}
+
+#pname{
+    color: black;
+    text-decoration-line: none;
+    
+}
+button{
+    background-color: #388E3C;
+    color: white;
+    box-shadow: none;
+    border-radius: 4px;
+    width: 50px;
+    height: 25px;
+    
+}
+.rating{
+    color: gray;
+}
+#off{
+    color: #388E3C;
+}
+.bankoffer{
+    color:  #388E3C;
+    font-weight: 500;
+}
+#fprice{
+    font-size: 35px;
+}
+
+/*------------------------------------------------------------footer----------------------------------------------------------*/
+
+footer{
+    height: 300px;
+    background-color: #152336;
+    display: flex;
+    padding-top: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+    justify-content: space-between;
+
+}
+
+.heading{
+    color: grey;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.ss{
+    color: white;
+    font-weight: 500;
+    margin-top: 10px;
+}
+li{
+    list-style: none;
+}
+#hrr{
+    color: grey;
+    height: 200px;
+    margin-left: 100px;
+}
+ 
+
+
+
